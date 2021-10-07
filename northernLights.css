@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+.hiking-photos{
+    display: flex;
+    margin: 30px 10px 30px 50px; 
+    /* width: 30%; */
+}
+
+.hiking-photos img{
+    width: 400px;
+    height: 350px;
+    border: 3px solid black;
+    margin: 0px 2px 0px 0px;
+}
+
+.information-hiking{
+    margin: 30px 0px 30px 0px;
+}
+
+footer{
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer-links a{
+    padding: 0px 20px 0px 20px;
+    font-size: large;
+
+}

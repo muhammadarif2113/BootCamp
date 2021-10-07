@@ -1,0 +1,72 @@
+#title{
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+
+#title2{
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+
+.container{
+    display: flex;
+}
+
+.input-comment{
+    margin-left: 260px;
+}
+
+.side-contact{
+    margin-left: 80px;
+    color: gray;
+
+}
+
+#name{
+    width: 280px;
+    height: 30px; 
+}
+
+#email{
+    width: 280px;
+    height: 30px; 
+    margin-left: 20px;
+
+}
+
+#comment{
+    width: 580px; 
+    height: 100px; 
+}
+
+.info{
+    display: flex;
+}
+
+button{
+    float: right;
+    margin-right: 235px;
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    background-color: #494A49;
+    color: white;
+}
+
+footer{
+    margin-top: 700px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer-links a{
+    padding: 0px 20px 0px 20px;
+    font-size: large;
+
+}
