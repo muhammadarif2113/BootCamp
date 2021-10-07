@@ -1,54 +1,67 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1>">
-        <title>CISC 3610</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="full-container">
     <body>
-        <div class="heading">
-            <p><h1>Muhammad Arif</h1></p>
-            <p><h2>Boot Camp</h2></p>
-            <p><h2>Prof. Xiao</h2></p>
-            
+        <div class="container">
+            <header>
+                <nav>
+                    <ul class="nav-bar">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Book</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="first-assignment">
+                <h1>Assignment 1</h1>
+                <br>
+                <p>Hey! It looks like a paragraph, but there is a block/box here too. Find that HTML element other than &lt;p> and &lt;h></p>
+                <a href="https://www.google.com/" style="color: darkmagenta;">This is a link to Google</a>
+                <br><br>
+                <img src="images/nyc.jpeg" width="150px" height="200px" style="align-content: left;">
+                <br>
+                <p style="font-style: italic;">Email me by clicking on <a href= "mailto:jondoe@gmail.com">Jon Doe.</a>
+                <br>Visit us at:
+                <br><a href=https://disneyworld.disney.go.com>Disney World</a>  
+                <br>Box 678, Disneyland
+                <br>USA<br>
+                </p>
+            </div>
+            <br>
+
+            <div class="nyc-pic">
+                <img src="images/nyc2.jpg" width="250px" height="250px">
+            </div>
+
+            <div class="text-div">
+                <table cellspacing="0">
+                    <tr class="hotpink"><td>This is the hotpink paragraph, font family is Arial</td></tr>
+                    <tr class="pink"><td>This is the pink paragraph, font family is Courier</td></tr>
+                    <tr class="lightpink"><td>This is the lightpink paragraph,font family is Corsiva</td></tr>
+                </table>
+            </div>
+
+            <!-- <button class="button" href="#popup1">This is a button</button> -->
+
+            <a class="button" href="#popup1">This is a button</a>
+
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>Button was clicked</h2>
+                </div>
+            </div>
+
+            <footer>Study button, input, form and textarea elements</footer>
         </div>
-
-
-    <div class= "body">
-        <p><b><h2><font size="+20">Assignments</font></h2></p>
-        <li><font size= "+15"><a href="indexAssignment1.html" class="button">Assignment 1</a></font></li>
-        <li><font size= "+15"><a href="indexAssignment2.html" class="button">Assignment 2</a></font></li> 
-        <li><font size= "+15"><a href="dataVisual.html" class="button">Data Visualization Assignment</a></font></li>     
-        <li><font size= "+15"><a href="indexPhaser.html" class="button">Phaser Game Assignment</a></font></li>  
-        <li><font size= "+15"><a href="indexaudioProject.html" class="button">Audio Project</a></font></li>  
-
-    </div>
-    <div class= "labs">
-        <h2><b><font size="+20">Projects</font></h2> 
-         <li><font size= "+15"><a href="Lab1.html" class="button">Chart Lab</a></font></li>
-         <li><font size= "+15"><a href="lab4.html" class="button">Form Lab</a></font></li>
-         <li><font size= "+15"><a href="indexAnimateLab.html" class="button">Animation Numbers Lab</a></font></li>
-         <li><font size= "+15"><a href="resume-bootstrap.html" class="button">Resume Lab</a></font></li>
-         <li><font size= "+15"><a href="indexDD.html" class="button">Drag&Drop Lab</a></font></li>
-         <li><font size= "+15"><a href="audiolab.html" class="button">Audio Lab</a></font></li>
-         <li><font size= "+15"><a href="videoLab.html" class="button">Video Lab</a></font></li>
-
-
-     </div>
     </body>
-
-    <style> 
-        .heading { 
-            background-color: #F0FFFF; 
-            border: thick double #F0FFFF;
-        }
-        .body { 
-            background-color: #F8F8FF; 
-            border: thick double #F8F8FF;
-        }
-        .labs { 
-            background-color: #F0FFF0; 
-            border: thick double #F0FFF0;
-        }
-    </style> 
+</div>
+    
+<!-- </body> -->
 </html>

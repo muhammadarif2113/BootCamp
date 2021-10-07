@@ -1,0 +1,173 @@
+body{
+    /* background-image: url("island.jpg");
+    background-size:auto; */
+    margin: 0;
+}
+.full-container{
+    /* background-image: url("island.jpg");
+    margin: 0; */
+    /* height: 955px; */
+    background-image: url("images/island.jpg");
+
+}
+.container{
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5); 
+    align-items: center;
+    margin: 0 auto;
+    /* width: 80%; */
+    width: 900px;
+    height: fit-content;
+    /* height: 800px;  */
+    border: 2px solid black;
+    border-top: 0;
+    background-color: lightgrey;
+    
+    
+}
+
+.nav-bar{
+    list-style: none;
+    background-color: black;
+    height: 50px; 
+    float:none;
+    display: block;
+    text-align: center
+}
+.nav-bar li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
+    padding-top: 10px;
+    height: 80%;
+}
+
+.nav-bar > li {
+    display: inline-block;
+    width: 100px; 
+    float:none;
+}
+
+.nav-bar li:hover{
+    background-color: orange;
+}
+
+.first-assignment{
+    width: 45%;
+    height: 300px;
+    padding-left: 10px;
+    overflow-y:scroll;
+    border: 5px solid #ff69b4; 
+    margin: 0 auto; 
+}
+
+.nyc-pic img{
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+    left: 90px;
+    top: 70px;
+}
+
+.text-div{
+    position: relative;
+    left: 500px;
+    top: -183px;
+    width: fit-content;
+}
+
+.text-div table{
+    /* border: 1px solid black; */
+    width: 300px;
+}
+
+.text-div td{
+    text-align: left;
+    /* border: 1px solid black; */
+    vertical-align: bottom;
+
+}
+
+.text-div tr{
+    margin-bottom: 0;
+}
+
+.hotpink{
+    background-color: #ff69b4;
+    font-family: Arial;
+    height: 50px;
+    font-size: small;
+}
+
+.pink{
+    background-color: pink;
+    font-family: Courier;
+    height: 80px; 
+    font-weight: lighter;
+
+}
+
+.lightpink{
+    background-color: lightpink;
+    font-family: 'Corsiva'; 
+    height: 75px;
+}
+
+.button{
+    background-color: orange;
+    display: block;
+    color: white; 
+    border-radius: 8px;
+    position: relative; 
+    left: 550px; 
+    bottom: 150px; 
+    width: 210px; 
+    height: 30px;
+    border-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 7px;
+}
+
+footer{
+    background-color: black;
+    display: block; 
+    color:white; 
+    text-align: center;
+    height: 70px;
+    margin-top: -100px;
+    padding-top: 20px;
+
+}
+
+.overlay{
+    position: fixed;
+    top: 100;
+    bottom: 100;
+    left: 100;
+    right: 100;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup{
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    width: 30%;
+    position: relative;
+}
+
+
+
+
+
