@@ -129,7 +129,7 @@ h1{
     position: absolute;
     transform-origin: center left;
     animation-name: moveminutehand;
-    animation-duration: 12s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
   }
   
