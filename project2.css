@@ -159,6 +159,10 @@ header span{
     position: relative;
 }
 
+.bag-button:hover{
+    background-color: darkgray;
+}
+
 .bag-button:hover:before{
     content: attr(data-tooltip); 
     color: black;
